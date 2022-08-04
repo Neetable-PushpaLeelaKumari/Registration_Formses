@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Registration-form {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.container{
+  margin-top: 30px;
+}
+.submit-btn{
+  text-align: center;
+  }
+.container input::placeholder{
+  color: rgba(128, 128, 128, 0.394);
+}
+@media screen and (max-width: 992px) {
+    .Registration-form{
+      text-align: left;
+      width: 900px;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+}
+
+
